@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#343638</color>
+    <color name="colorPrimaryDark">#161616</color>
+    <color name="colorAccent">#e4672f</color>
+    <color name="colorAccentDark">#bc5120</color>
+
+    <!-- Album list -->
+    <color name="item_album_bg_pending_removal">#da0404</color>
+    <color name="item_album_text">#f5f5f5</color>
+    <color name="item_album_camera_roll_text">#c4511d</color>
+
+
+    <!-- Thumbnail List -->
+    <color name="item_thumbnail_bg_placeholder">#efeceb</color>
+
+</resources>

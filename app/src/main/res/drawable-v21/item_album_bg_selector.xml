@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Pending removal -->
+    <item android:state_activated="true"
+        android:drawable="@color/item_album_bg_pending_removal" />
+
+    <item android:state_selected="true"
+        android:state_pressed="true">
+        <ripple android:color="@color/colorAccentDark" />
+    </item>
+
+    <item android:state_selected="true"
+        android:drawable="@color/colorAccent" />
+
+    <item android:state_pressed="true">
+        <ripple android:color="@color/colorPrimaryDark" />
+    </item>
+
+    <item android:drawable="@color/colorPrimary" />
+
+</selector>

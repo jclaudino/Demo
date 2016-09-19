@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="activity_main_layout" type="layout">@layout/content_main_one_pane</item>
+    <bool name="has_two_panes">false</bool>
+    <integer name="columns">3</integer>
+    <integer name="previewColumns">4</integer>
+</resources>

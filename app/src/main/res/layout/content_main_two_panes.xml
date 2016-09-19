@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <fragment class="com.baboolian.demo.ui.fragment.ThumbnailFragment"
+        android:id="@+id/main_thumbnail_fragment"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_thumbnails" />
+
+    <fragment class="com.baboolian.demo.ui.fragment.MediaFragment"
+        android:id="@+id/main_media_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_media" />
+
+</LinearLayout>

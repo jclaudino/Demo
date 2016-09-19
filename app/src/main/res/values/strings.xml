@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Demo</string>
+
+    <!-- Toolbar -->
+    <string name="action_create_album">New Album</string>
+    <string name="action_show_resume">Resume</string>
+
+    <!-- Drawer -->
+    <string name="drawer_title">Albums</string>
+    <string name="drawer_open">Albums Open</string>
+    <string name="drawer_close">Albums Close</string>
+
+    <!-- Main Activity -->
+    <string name="main_new_album_snackbar_tip">Select media files for your new Album!</string>
+    <string name="main_new_album_snackbar_done">done</string>
+    <string name="main_cameraroll_album_name">Camera Roll</string>
+
+    <!-- Resume Activity -->
+    <string name="resume_title">Resume</string>
+    <string name="resume_no_email_client">"There are no email clients installed!"</string>
+
+    <!-- New Album Fragment -->
+    <string name="new_album_name">New Album</string>
+    <string name="new_album_name_hint">Album Name</string>
+    <string name="new_album_name_too_short">Must fill out an album name!</string>
+
+    <!-- Album Item -->
+    <string name="item_album_file_count">Files: %1$d</string>
+
+    <!-- Album Adapter -->
+    <string name="album_new_album_name">New Album</string>
+    <string name="new_album_duplicate_name">Album with the name \"%1$s\" already exists!</string>
+
+    <!-- Common Strings -->
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="undo">Undo</string>
+
+</resources>
