@@ -28,7 +28,8 @@ public class DataBaseWrapper extends SQLiteOpenHelper {
     private static final String CREATE_TABLE_ALBUMS = "create table " + TABLE_ALBUMS
             + "(" + COLUMN_ID + " integer primary key autoincrement, "
             + COLUMN_ALBUM_NAME + " integer not null, "
-            + COLUMN_FILE_IDS + " text not null);";
+            + COLUMN_FILE_IDS + " text not null, "
+            + COLUMN_ORDER + " integer);";
 
     String DATABASE_ALTER_V1_TO_V2 = "ALTER TABLE " + TABLE_ALBUMS + " ADD COLUMN " + COLUMN_ORDER + " integer;"
             + "UPDATE " + TABLE_ALBUMS + " SET " + COLUMN_ORDER + " = " + COLUMN_ID;
