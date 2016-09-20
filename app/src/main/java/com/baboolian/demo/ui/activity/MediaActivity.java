@@ -19,13 +19,13 @@ public class MediaActivity extends AppCompatActivity {
 
     private static final String EXTRA_MEDIA_FILE = "EXTRA_MEDIA_FILE";
 
+    private MediaStoreFile file;
+
     public static void start(Context context, MediaStoreFile file) {
         Intent intent = new Intent(context, MediaActivity.class);
         intent.putExtra(EXTRA_MEDIA_FILE, file);
         context.startActivity(intent);
     }
-
-    private MediaStoreFile file;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

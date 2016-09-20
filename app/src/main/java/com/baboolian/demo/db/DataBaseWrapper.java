@@ -111,10 +111,10 @@ public class DataBaseWrapper extends SQLiteOpenHelper {
             return;
         }
 
-        //Get all albums in the current order
         SQLiteDatabase db = this.getWritableDatabase();
-        //Swap albums
+        //Get all albums in the current order
         ArrayList<Album> albums = getAllAlbums();
+        //Swap albums
         if (fromPosition < toPosition) {
             for (int i = fromPosition; i < toPosition; i++) {
                 Collections.swap(albums, i, i + 1);
